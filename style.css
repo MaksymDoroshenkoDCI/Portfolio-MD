@@ -1,65 +1,53 @@
-body {
-     font-family: Arial, sans-serif;
-     margin: 0;
-     padding: 0;
-     background-color: #f0f4f0;
-     color: #333;
- }
-
- header {
-     background-color: #2ecc71;
-     color: white;
-     padding: 20px;
-     text-align: center;
- }
-
- .container {
-     max-width: 800px;
-     margin: 20px auto;
-     padding: 20px;
-     background: white;
-     border-radius: 8px;
-     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
- }
-
- h1 {
+ body {
+     background-color: transparent;
      color: black;
  }
 
+ header {
+     background-image: url('https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg');
+     background-size: cover;
+     background-position: center;
+     color: white;
+     text-align: center;
+     padding: 40px 20px;
+     border-radius: 12px;
+ }
+
+ header h1,
+ header p {
+     background: rgba(40, 35, 35, 0.6);
+     display: inline-block;
+     padding: 10px 20px;
+     border-radius: 12px;
+ }
+
+ .container {
+     background: rgba(255, 255, 255, 0.9);
+     margin: 20px auto;
+     padding: 20px;
+     border-radius: 12px;
+     max-width: 800px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ }
+
+ h1,
  h2 {
-     color: #27ae60;
+     color: #ff0000;
  }
 
- .section {
-     margin-bottom: 20px;
- }
-
- .section h2 {
-     border-bottom: 2px solid #27ae60;
-     padding-bottom: 5px;
- }
-
- ul {
-     list-style-type: none;
-     padding: 0;
- }
-
- ul li {
-     padding: 5px 0;
- }
-
+ .section,
+ ul,
+ li,
+ p,
  .contact-info {
-     margin-bottom: 20px;
- }
-
- .contact-info p {
-     margin: 5px 0;
+     border-radius: 12px;
  }
 
  footer {
+     background-color: rgba(255, 0, 0, 0.8);
+     color: white;
      text-align: center;
      padding: 10px;
-     background-color: #2ecc71;
-     color: white;
      margin-top: 20px;
+     border-radius: 12px;
  }
