@@ -13,24 +13,23 @@
      border-radius: 12px;
  }
 
- header h1,
- header p {
-     background: rgba(40, 35, 35, 0.6);
+h1 {
+    text-align: center;
+    color: #006eff;
+    justify-content: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 12px;
+}
+p {
+    text-align: center;
+     background: rgba(200, 200, 200, 0.6);
      display: inline-block;
      padding: 10px 20px;
      border-radius: 12px;
  }
 
- .container {
-     background: rgba(255, 255, 255, 0.9);
-     margin: 20px auto;
-     padding: 20px;
-     border-radius: 12px;
-     max-width: 800px;
-     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
- }
-
- h1,
  h2 {
      color: #006eff;
  }
@@ -38,9 +37,13 @@
  .section,
  ul,
  li,
- p,
  .contact-info {
-     border-radius: 12px;
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.6);
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 12px;
+    color: black;
  }
 
  footer {
@@ -50,4 +53,34 @@
      padding: 10px;
      margin-top: 20px;
      border-radius: 12px;
+ }
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* Відстань між кнопками */
+    margin: 20px 0;
+}
+
+nav a {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    transition: background 0.3s ease;
+}
+
+nav a:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    justify-content: center;
+     background: rgba(245, 248, 255, 0.9);
+     margin: 20px auto;
+     padding: 20px;
+     border-radius: 12px;
+     max-width: 800px;
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
  }
